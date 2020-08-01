@@ -1,0 +1,31 @@
+{
+	"name": "record-flixbus-movement",
+	"description": "Record the movement of a Flixbus coach using the on-board WiFi.",
+	"version": "1.0.0",
+	"bin": {
+		"record-flixbus-movement": "./bin.js"
+	},
+	"files": [
+		"bin.js"
+	],
+	"keywords": [
+		"flixbus",
+		"icomera",
+		"position",
+		"movement",
+		"track",
+		"gps",
+		"gpx"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/record-flixbus-movement",
+	"repository": "derhuerst/record-flixbus-movement",
+	"bugs": "https://github.com/derhuerst/record-flixbus-movement/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=12"
+	},
+	"dependencies": {
+		"mri": "^1.1.6"
+	}
+}
