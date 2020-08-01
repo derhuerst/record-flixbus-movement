@@ -30,4 +30,13 @@ const showError = (err) => {
 	process.exit(1)
 }
 
-// todo
+const {asEventEmitter} = require('live-icomera-position')
+
+asEventEmitter()
+.on('error', (err) => {
+	console.error(err)
+	process.exitCode = 1
+})
+.on('data', (pos) => {
+	process.stdout.write(JSON.stringify(pos) + '\n')
+})

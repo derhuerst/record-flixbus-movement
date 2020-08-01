@@ -26,6 +26,7 @@
 		"node": ">=12"
 	},
 	"dependencies": {
+		"live-icomera-position": "^1.0.0",
 		"mri": "^1.1.6"
 	}
 }

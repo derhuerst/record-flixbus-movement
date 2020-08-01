@@ -28,6 +28,20 @@ Usage:
     record-flixbus-movement >file.ndjson
 ```
 
+The JSON format matches [`record-tgv-movement`](https://npmjs.com/package/record-tgv-movement) where possible:
+
+```json
+{
+	"latitude": 52.704891,
+	"longitude": 13.064141,
+	"altitude": 53.9,
+	"speed": 66,
+	"cmg": "276.01",
+	"nrOfSatellites": 9,
+	"mode": "3",
+}
+```
+
 
 ## Related
 
